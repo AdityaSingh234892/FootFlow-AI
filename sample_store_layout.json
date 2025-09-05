@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "Entrance": {
+      "polygon": [[0, 0], [200, 0], [200, 100], [0, 100]],
+      "category": "Entrance",
+      "color": [100, 200, 255],
+      "shelf_info": {},
+      "subsections": {}
+    },
+    "Electronics": {
+      "polygon": [[200, 0], [400, 0], [400, 200], [200, 200]],
+      "category": "Electronics",
+      "color": [255, 100, 100],
+      "shelf_info": {
+        "TV_Section": {
+          "polygon": [[220, 20], [380, 20], [380, 80], [220, 80]],
+          "products": ["Samsung TV", "LG TV", "Sony TV"]
+        },
+        "Mobile_Section": {
+          "polygon": [[220, 100], [380, 100], [380, 180], [220, 180]],
+          "products": ["iPhone", "Samsung Galaxy", "Google Pixel"]
+        }
+      },
+      "subsections": {}
+    },
+    "Groceries": {
+      "polygon": [[0, 200], [300, 200], [300, 400], [0, 400]],
+      "category": "Groceries",
+      "color": [100, 255, 100],
+      "shelf_info": {
+        "Dairy": {
+          "polygon": [[20, 220], [140, 220], [140, 280], [20, 280]],
+          "products": ["Milk", "Cheese", "Yogurt"]
+        },
+        "Fruits": {
+          "polygon": [[160, 220], [280, 220], [280, 280], [160, 280]],
+          "products": ["Apples", "Bananas", "Oranges"]
+        },
+        "Vegetables": {
+          "polygon": [[20, 300], [140, 300], [140, 380], [20, 380]],
+          "products": ["Tomatoes", "Carrots", "Lettuce"]
+        },
+        "Meat": {
+          "polygon": [[160, 300], [280, 300], [280, 380], [160, 380]],
+          "products": ["Chicken", "Beef", "Pork"]
+        }
+      },
+      "subsections": {}
+    },
+    "Clothing": {
+      "polygon": [[400, 0], [600, 0], [600, 300], [400, 300]],
+      "category": "Clothing",
+      "color": [100, 100, 255],
+      "shelf_info": {
+        "Mens_Clothing": {
+          "polygon": [[420, 20], [580, 20], [580, 140], [420, 140]],
+          "products": ["Shirts", "Pants", "Jackets"]
+        },
+        "Womens_Clothing": {
+          "polygon": [[420, 160], [580, 160], [580, 280], [420, 280]],
+          "products": ["Dresses", "Blouses", "Skirts"]
+        }
+      },
+      "subsections": {}
+    },
+    "Checkout": {
+      "polygon": [[0, 400], [600, 400], [600, 450], [0, 450]],
+      "category": "Checkout",
+      "color": [255, 255, 100],
+      "shelf_info": {},
+      "subsections": {}
+    },
+    "Exit": {
+      "polygon": [[550, 450], [600, 450], [600, 500], [550, 500]],
+      "category": "Exit",
+      "color": [200, 255, 100],
+      "shelf_info": {},
+      "subsections": {}
+    }
+  },
+  "metadata": {
+    "store_type": "Walmart",
+    "layout_version": "1.0",
+    "created_date": "2025-07-12",
+    "description": "Sample Walmart store layout for footstep tracking analysis"
+  }
+}
